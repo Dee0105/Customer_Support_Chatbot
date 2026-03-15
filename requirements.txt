@@ -1,0 +1,45 @@
+# LangChain core ecosystem
+langchain==0.3.26
+langchain-core
+langchain-community==0.3.26
+langchain-pinecone==0.2.8 
+
+flask==3.1.1
+
+# Google Gemini integration
+langchain-google-genai
+google-generativeai
+
+# Vector database
+pinecone-client
+langchain-pinecone
+
+# Document loaders
+pypdf==5.6.1
+python-docx==0.8.11
+unstructured==0.14.6
+
+# Text processing
+tiktoken
+
+# Backend API
+fastapi
+uvicorn
+
+# Frontend UI
+streamlit
+
+# Environment variables
+python-dotenv
+
+# HTTP requests
+requests
+
+# Data handling
+pandas
+numpy
+
+# Embeddings (optional but useful)
+sentence-transformers==4.1.0
+
+-e .
